@@ -1,3 +1,6 @@
+.home_container{
+    row-gap: 7rem;
+}
 .home_content{
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
@@ -46,7 +49,7 @@
     margin-bottom: var(--mb-3);
 }
 .home_img{
-    background: url("../../assets/profile.jpg"); 
+    background: url("../../assets/ma_photo.png"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -67,4 +70,44 @@
     100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
+}
+.home_scroll{
+    margin-left: 9.25rem;
+}
+.wheel{
+    animation: scroll 2s ease infinite;
+}
+@keyframes scroll {
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translate(3.75rem);
+    }
+}
+.home_scroll-name{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+.home_scroll-arrow{
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+@media screen and (max-width: 992px) {
+    
+}
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    
 }
