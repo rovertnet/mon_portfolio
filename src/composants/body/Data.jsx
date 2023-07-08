@@ -57,8 +57,17 @@ const Data = () => {
         </h1>
         <h3 className="home_subtitle">Développeur Web</h3>
         <p className="home_description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis dolor iste! Rem non corrupti quibusdam voluptate deserunt aliquid, blanditiis error quidem unde maxime provident ratione quisquam expedita totam similique.
-            Dicta enim fugit omnis rerum consequuntur magni itaque ipsam ducimus ex obcaecati quibusdam ipsum deleniti ut deserunt totam earum recusandae vitae exercitationem autem, sunt mollitia. Perferendis est sed odio ratione?
+              Ingénieur expérimenté, passionné par
+              l’univers ICT et son évolution
+              croissante, j’ambitionne de mettre mes
+              compétences au service d’une entreprise
+              à la culture innovante, enthousiaste et
+              audacieuse. Grâce à un parcours de
+              formation approfondie et à une somme
+              d’expériences professionnelles
+              performante, je suis devenu expert dans
+              la conception et l’adaptation
+              d’applications web.
         </p>
         <a href="#contact" className="button button-flex">
             Dis bonjour!
