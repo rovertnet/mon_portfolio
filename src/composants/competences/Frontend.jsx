@@ -4,7 +4,7 @@ import "./competence.css";
 const Frontend = () => {
   return (
     <div className="skills_content">
-        <h3 className="skills_title">Développeur Web</h3>
+        <h3 className="skills_title">Développeur Front-end</h3>
         <div className="skills_box">
             <div className="skills_group">
                 <div className="skills_data">
