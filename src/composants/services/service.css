@@ -1,0 +1,5 @@
+.services_container{
+    grid-template-columns: repeat(4, 270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+}
