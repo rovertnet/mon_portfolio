@@ -20,8 +20,12 @@
     justify-content: center;
     column-gap: 2.5rem;
 }
-.skills_group{
+.skills_box .skills_group{
     display: grid;
     align-items: flex-start;
     row-gap: 1rem;
+}
+.skills_data{
+    display: flex;
+    column-gap: 0.5rem;
 }
