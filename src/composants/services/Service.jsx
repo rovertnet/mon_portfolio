@@ -14,7 +14,7 @@ const Service = () => {
                     <h3 className="services_title">UI/UX <br /> Designer </h3>
                 </div>
                 <span className="services_button">
-                    plus{""} <i className="uil uil-arrow-right"></i>
+                    plus{""} <i className="uil uil-arrow-right services_button-icon"></i>
                 </span>
                 <div className="services_modal">
                     <div className="services_modal-content">
