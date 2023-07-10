@@ -19,7 +19,8 @@ const Service = () => {
                 <div className="services_modal">
                     <div className="services_modal-content">
                         <i className="uil uil-times"></i>
-                        <h3 className="services_modal-title"></h3>
+                        <h3 className="services_modal-title">UI/UX 
+                        Designer</h3>
                         <p className="services_modal-description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Nisi ex sapiente cum harum corporis, molestiae repudiandae saepe, 
@@ -62,7 +63,8 @@ const Service = () => {
                   <div className="services_modal">
                       <div className="services_modal-content">
                           <i className="uil uil-times"></i>
-                          <h3 className="services_modal-title"></h3>
+                          <h3 className="services_modal-title">Conception API 
+                          Rest & Rest full</h3>
                           <p className="services_modal-description">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit.
                               Nisi ex sapiente cum harum corporis, molestiae repudiandae saepe,
@@ -105,7 +107,8 @@ const Service = () => {
                   <div className="services_modal">
                       <div className="services_modal-content">
                           <i className="uil uil-times"></i>
-                          <h3 className="services_modal-title"></h3>
+                          <h3 className="services_modal-title">UI/UX 
+                          Designer</h3>
                           <p className="services_modal-description">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit.
                               Nisi ex sapiente cum harum corporis, molestiae repudiandae saepe,
@@ -148,7 +151,8 @@ const Service = () => {
                   <div className="services_modal">
                       <div className="services_modal-content">
                           <i className="uil uil-times"></i>
-                          <h3 className="services_modal-title"></h3>
+                          <h3 className="services_modal-title">Réferencement 
+                          SEO</h3>
                           <p className="services_modal-description">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit.
                               Nisi ex sapiente cum harum corporis, molestiae repudiandae saepe,
