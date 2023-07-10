@@ -29,3 +29,39 @@
     display: flex;
     column-gap: 0.5rem;
 }
+.skills .bx-badge-check{
+    font-size: 1rem;
+    color: var(--title-color);
+}
+.skills_name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+}
+.skills_level{
+    font-size: var(--tiny-font-size);
+}
+@media screen and (max-width: 992px) {
+    .skills_container{
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills_container{
+        grid-template-columns: 1fr;
+    }
+    .skills_content{
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .skills_box{
+        column-gap: 1.25rem;
+    }
+    .skills_name{
+        font-size: var(--small-font-size);
+    }
+}
