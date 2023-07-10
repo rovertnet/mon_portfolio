@@ -1,5 +1,20 @@
 .services_container{
-    grid-template-columns: repeat(4, 270px);
+    grid-template-columns: repeat(2, 270px);
     justify-content: center;
     column-gap: 1.8rem;
+}
+.services_content{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    padding: 6rem 0 2rem 2.5rem;
+}
+.services_icon{
+    display: block;
+    font-size: 2rem;
+    color: var(--title-color);
+    margin-bottom: var(--mb-1);
+}
+.services_modal{
+    display: none;
 }
