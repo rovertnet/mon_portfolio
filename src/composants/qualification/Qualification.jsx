@@ -13,14 +13,12 @@ const Qualification = () => {
 
         <div className="qualification_container container">
             <div className="qualification_tabs">
-                <div className={Toggle === 1 ? "qualification_button button--flex" :
-                   "qualification_button button--flex"}>
+                <div className={Toggle === 1 ? "qualification_button button--flex" : "qualification_button button--flex"}>
                     <i className="uil uil-graduation-cap qualificatio_icon"></i>{""}
                     Education
                 </div>
 
-                  <div className={Toggle === 2 ? "qualification_button button--flex" :
-                      "qualification_button button--flex"}>
+                  <div className={Toggle === 2 ? "qualification_button button--flex" : "qualification_button button--flex"}>
                       <i className="uil uil-briefcase qualificatio_icon"></i>{""}
                       Expériences
                 </div>
@@ -28,9 +26,7 @@ const Qualification = () => {
 
             <div className="qualification_sections">
                   <div className={
-                    Toggle === 1 ? 
-                     "qualification_content qualification_content-active" : 
-                     "qualification_content qualification_content-active"}
+                    Toggle === 1 ? "qualification_content qualification_content-active" : "qualification_content qualification_content-active"}
                       onClick={() => ToggleTab(1)}>
                     <div className="qualification_data">
                           <div></div>
