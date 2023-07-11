@@ -43,3 +43,25 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
+.qualification_subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+.qualification_calender{
+    font-size: var(--small-font-size);
+}
+.qualification_rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+.qualification_line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--title-color-dark);
+    transform: translate(6px, -7px);
+}
