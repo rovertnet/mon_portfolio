@@ -28,3 +28,18 @@
     grid-template-columns: 0.1fr;
     justify-content: center;
 }
+.qualification_content{
+    display: none;
+}
+.qualification_content-active{
+    display: block;
+}
+.qualification_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+.qualification_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
