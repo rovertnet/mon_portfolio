@@ -12,7 +12,7 @@ function App() {
 
       <main className="main">
         <Home />
-        <About />
+        <About />,
         <Competences />
         <Service />
       </main>
