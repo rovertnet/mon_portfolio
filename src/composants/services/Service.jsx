@@ -15,7 +15,7 @@ const Service = () => {
         <div className="services_container container grid">
             <div className="services_content">
                 <div>
-                    <i className="uil uil-arrow services_icon"></i>
+                      <i className="uil uil-desktop-alt services_icon"></i>
                     <h3 className="services_title">UI/UX <br /> Designer </h3>
                 </div>
                   <span className="services_button" onClick={() => ToggleTab(1)}>
@@ -56,19 +56,19 @@ const Service = () => {
 
             <div className="services_content">
                   <div>
-                      <i className="uil uil-arrow services_icon"></i>
+                      <i className="uil uil-circuit services_icon"></i>
                       <h3 className="services_title">Conception API<br /> Rest/Rest Full </h3>
                   </div>
-                  <span className="services_button" onClick={() => ToggleTab(1)}>
+                  <span className="services_button" onClick={() => ToggleTab(2)}>
                       plus{""} <i className="uil uil-arrow-right"></i>
                   </span>
-                  <div className={Toggle === 1 ? "services_modal active-modal" : "services_modal"}>
+                  <div className={Toggle === 2 ? "services_modal active-modal" : "services_modal"}>
                       <div className="services_modal-content">
                           <i onClick={() => ToggleTab(0)} className="uil uil-times services_modal-close"></i>
                           <h3 className="services_modal-title">Conception API 
                           Rest & Rest full</h3>
                           <p className="services_modal-description">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Je vais concevoir les APIs pour vos sites et Applications web
                           </p>
                           <ul className="services_modal-services grid">
                               <li className="services_modal-service">
@@ -97,19 +97,19 @@ const Service = () => {
 
             <div className="services_content">
                   <div>
-                      <i className="uil uil-arrow services_icon"></i>
-                      <h3 className="services_title">UI/UX <br /> Designer </h3>
+                      <i className="uil uil-apps services_icon"></i>
+                      <h3 className="services_title">Application <br /> Web  </h3>
                   </div>
-                  <span className="services_button" onClick={() => ToggleTab(1)} >
+                  <span className="services_button" onClick={() => ToggleTab(3)} >
                       plus{""} <i className="uil uil-arrow-right"></i>
                   </span>
-                  <div className={Toggle === 1 ? "services_modal active-modal" : "services_modal"}>
+                  <div className={Toggle === 3 ? "services_modal active-modal" : "services_modal"}>
                       <div className="services_modal-content">
                           <i onClick={() => ToggleTab(0)} className="uil uil-times services_modal-close"></i>
-                          <h3 className="services_modal-title">UI/UX 
-                          Designer</h3>
+                          <h3 className="services_modal-title">Application 
+                          Web</h3>
                           <p className="services_modal-description">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Je vais créer vos applications web!
                           </p>
                           <ul className="services_modal-services grid">
                               <li className="services_modal-service">
@@ -141,16 +141,16 @@ const Service = () => {
                       <i className="uil uil-arrow services_icon"></i>
                       <h3 className="services_title">Référencement <br /> SEO </h3>
                   </div>
-                  <span className="services_button" onClick={() => ToggleTab(1)}>
+                  <span className="services_button" onClick={() => ToggleTab(4)}>
                       plus{""} <i className="uil uil-arrow-right"></i>
                   </span>
-                  <div className={Toggle === 1 ? "services_modal active-modal" : "services_modal"} >
+                  <div className={Toggle === 4 ? "services_modal active-modal" : "services_modal"} >
                       <div className="services_modal-content">
                           <i onClick={() => ToggleTab(0)} className="uil uil-times services_modal-close"></i>
                           <h3 className="services_modal-title">Réferencement 
                           SEO</h3>
                           <p className="services_modal-description">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Je vais optimiser vos sites web!
                           </p>
                           <ul className="services_modal-services grid">
                               <li className="services_modal-service">
