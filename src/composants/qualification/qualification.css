@@ -1,0 +1,30 @@
+.qualification_container{
+    max-width: 768px;
+}
+.qualification_tabs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--mb-2);
+}
+.qualification_button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    margin: 0 var(--mb-1);
+    cursor: pointer;
+}
+.qualification_button:hover{
+    color: var(--title-color-dark);
+}
+.qualification_icon{
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+.qualification_active{
+    color: var(--title-color-dark);
+}
+.qualification_sections{
+    display: grid;
+    grid-template-columns: 0.1fr;
+    justify-content: center;
+}
