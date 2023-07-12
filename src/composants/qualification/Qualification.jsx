@@ -13,12 +13,14 @@ const Qualification = () => {
 
         <div className="qualification_container container">
             <div className="qualification_tabs">
-                <div className={Toggle === 1 ? "qualification_button button--flex" : "qualification_button button--flex"}>
+                <div className={Toggle === 1 ? "qualification_button button--flex" : "qualification_button button--flex"}
+                      onClick={() => ToggleTab(1)}>
                     <i className="uil uil-graduation-cap qualificatio_icon"></i>{""}
                     Education
                 </div>
 
-                  <div className={Toggle === 2 ? "qualification_button button--flex" : "qualification_button button--flex"}>
+                  <div className={Toggle === 2 ? "qualification_button button--flex" : "qualification_button button--flex"}
+                      onClick={() => ToggleTab(2)}>
                       <i className="uil uil-briefcase qualificatio_icon"></i>{""}
                       Expériences
                 </div>
@@ -26,8 +28,8 @@ const Qualification = () => {
 
             <div className="qualification_sections">
                   <div className={
-                    Toggle === 1 ? "qualification_content qualification_content-active" : "qualification_content qualification_content-active"}
-                      onClick={() => ToggleTab(1)}>
+                    Toggle === 1 ? "qualification_content qualification_content-active" : "qualification_content"}
+                      >
                     <div className="qualification_data">
                           <div></div>
 
@@ -71,7 +73,7 @@ const Qualification = () => {
                           <div></div>
 
                           <div>
-                              <h3 className="qualification_title">Informatique de gestion</h3>
+                              <h3 className="qualification_title">Info Gestion</h3>
                               <span className="qualification_subtitle">
                                   ISIPA
                               </span>
@@ -108,9 +110,8 @@ const Qualification = () => {
                 </div>
 
                   <div className={Toggle === 2 ? 
-                      "qualification_content" :       
-                      "qualification_content"}
-                      onClick={() => ToggleTab(2)}>
+                      "qualification_content qualification_content-active" :       
+                      "qualification_content"}>
                       <div className="qualification_data">
                           <div></div>
 
