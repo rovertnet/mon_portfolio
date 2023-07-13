@@ -6,10 +6,11 @@ import { Data } from './Data';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
 
-import {Pagination} from "swiper";
+import { Pagination } from 'swiper';
+
 
 const Temoignage = () => {
   return (
@@ -31,8 +32,9 @@ const Temoignage = () => {
                     768:{
                         slidesPerView: 2,
                         spaceBetween: 48,   
-                    }
+                    },
                   }}
+                  modules={[Pagination]}
           >
             {Data.map(({id, image, title, description})=>{
                 return(
