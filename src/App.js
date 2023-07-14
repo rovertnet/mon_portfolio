@@ -5,7 +5,6 @@ import Competences from './composants/competences/Competences';
 import { Header } from './composants/header/Header';
 import Qualification from './composants/qualification/Qualification';
 import Service from './composants/services/Service';
-import Temoignage from './composants/temoignage/Temoignage';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <Competences />
         <Service />
         <Qualification />
-        <Temoignage />
       </main>
     </>
   );
