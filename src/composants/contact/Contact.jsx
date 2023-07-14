@@ -67,12 +67,12 @@ const Contact = () => {
                     name="project" 
                     cols="30" 
                     rows="10" 
-                    className="contact_form-input"
+                    className="contact_form-input contact_form-area" 
                     placeholder="Ecrivez votre projet"
                   >
                   </textarea>
                 </div>
-                  <button className="button button-flex">
+                  <button className="button button-flex btn">
                     Envoyez message
                     <svg
                       class="button__icon"

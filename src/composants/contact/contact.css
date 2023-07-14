@@ -84,3 +84,26 @@
     background-color: var(--body-color);
     z-index: 10;
 }
+.contact_form-area{
+    height: 11rem;
+}
+.btn{
+    position: relative;
+    top: 7rem;
+}
+ textarea.contact_form-area{
+    resize: none;
+}
+@media screen and (max-width: 768px) {
+    .contact_container{
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (max-width: 350px) {
+    
+}
