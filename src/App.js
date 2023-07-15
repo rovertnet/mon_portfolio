@@ -6,6 +6,7 @@ import Contact from './composants/contact/Contact';
 import Footers from './composants/footers/Footers';
 import { Header } from './composants/header/Header';
 import Qualification from './composants/qualification/Qualification';
+import ScrollUp from './composants/scrollup/ScrollUp';
 import Service from './composants/services/Service';
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
         <Qualification />
 
         <Contact />
-        <Footers />
       </main>
+      
+      <Footers />
+      <ScrollUp />
     </>
   );
 }
