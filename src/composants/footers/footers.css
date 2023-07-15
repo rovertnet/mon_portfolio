@@ -27,3 +27,21 @@
     justify-content: center;
     column-gap: 1.25rem;
 }
+.footer_social-link{
+    background-color: var(--title-color);
+    color: var(--container-color);
+    font-size: 1.125rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+}
+.footer_social-link:hover {
+    background-color: var(--title-color-dark);
+}
+.footer_copy{
+    display: block;
+    margin-top: 4.5rem;
+    color: var(--title-color);
+    text-align: center;
+    font-size: var(--smaller-font-size);
+}
