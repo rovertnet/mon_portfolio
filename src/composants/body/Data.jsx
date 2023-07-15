@@ -61,13 +61,7 @@ const Data = () => {
               l’univers ICT et son évolution
               croissante, j’ambitionne de mettre mes
               compétences au service d’une entreprise
-              à la culture innovante, enthousiaste et
-              audacieuse. Grâce à un parcours de
-              formation approfondie et à une somme
-              d’expériences professionnelles
-              performante, je suis devenu expert dans
-              la conception et l’adaptation
-              d’applications web.
+              à la culture innovante...
         </p>
         <a href="#contact" className="button button-flex">
             Dis bonjour!

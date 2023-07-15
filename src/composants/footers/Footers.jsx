@@ -5,14 +5,14 @@ const Footers = () => {
     return (
         <footer className="footer">
             <div className="footer_container container">
-                <h1 className="footer_title">Rovertnet</h1>
+                <h1 className="footer_title">RovertNet</h1>
                 <ul className="footer_list">
                     <li>
                         <a href="#about" className="foter_link">A propos</a>
                     </li>
 
                     <li>
-                        <a href="#portfolio" className="foter_link">Services</a>
+                        <a href="#services" className="foter_link">Services</a>
                     </li>
 
                     <li>
@@ -32,7 +32,7 @@ const Footers = () => {
                         <i className="bx bxl-facebook"></i>
                     </a>
                 </div>
-                <span className="footer_copy">&#169; Crypticalcoder. Tous droit par RovertNet</span>
+                <span className="footer_copy">&#169; RovertNet. Tous droit par RovertNet</span>
             </div>
         </footer>
     )
