@@ -14,11 +14,7 @@ const Contact = () => {
       form.current, 
       'ghCt_42zK73_zQWBW'
       )
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
+      e.target.reset();
   };
   return (
     <section className="contact section" id="contact">
