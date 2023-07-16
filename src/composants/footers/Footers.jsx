@@ -32,7 +32,7 @@ const Footers = () => {
                         <i className="bx bxl-facebook"></i>
                     </a>
                 </div>
-                <span className="footer_copy">&#169; RovertNet. Tous droits reservés par RovertNet</span>
+                <span className="footer_copy">&#169; RovertNet. Tous droits reservés</span>
             </div>
         </footer>
     )
