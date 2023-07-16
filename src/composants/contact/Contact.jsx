@@ -23,7 +23,7 @@ const Contact = () => {
 
           <div className="contact_container container grid">
             <div className="contact_content">
-                <h3 className="contact_title">Talke to me</h3>
+                <h3 className="contact_title">Contactez-moi via </h3>
                 <div className="contact_info">
                   <div className="contact_card">
                         <i className="bx bx-mail-send contact_card-icon"></i>

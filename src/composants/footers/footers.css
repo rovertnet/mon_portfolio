@@ -46,6 +46,10 @@
     font-size: var(--smaller-font-size);
 }
 @media screen and (max-width: 992px) {
+    .footer{
+        position: relative;
+        top: 3rem;
+    }
     .footer_social-link {
         padding: O.25rem;
         border-radius: 0.25rem;

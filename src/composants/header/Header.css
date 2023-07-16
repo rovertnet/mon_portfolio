@@ -55,7 +55,7 @@
     .header{
         top: initial;
         bottom: 0;
-        background-color: rgba(2, 20, 32, 0.85);
+        background-color: var(--title-color);
     }
     .nav{
         height: var(--header-height);
@@ -96,10 +96,10 @@
     .nav_toggle{
         font-size: 1.1rem;
         cursor: pointer;
-        color: #fff;
+        color: var(--container-color);
     }
     .nav_logo{
-        color: #fff;
+        color: var(--container-color);
     }
     .nav_toggle,
     .nav_icon,
