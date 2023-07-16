@@ -16,7 +16,7 @@ const Footers = () => {
                     </li>
 
                     <li>
-                        <a href="#competences" className="foter_link">Compétences</a>
+                        <a href="#competence" className="foter_link">Compétences</a>
                     </li>
 
                 </ul>
@@ -32,7 +32,7 @@ const Footers = () => {
                         <i className="bx bxl-facebook"></i>
                     </a>
                 </div>
-                <span className="footer_copy">&#169; RovertNet. Tous droit par RovertNet</span>
+                <span className="footer_copy">&#169; RovertNet. Tous droits reservés par RovertNet</span>
             </div>
         </footer>
     )
