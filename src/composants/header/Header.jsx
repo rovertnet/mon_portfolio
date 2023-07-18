@@ -24,7 +24,7 @@ export const Header = () => {
                             onClick={() => setActiveNav('#home')} 
                               className={activeNav === "#home" ? "nav_link active-link" : "nav_link"}
                         >
-                            <i className="uil uil-estate nav_icon"></i>Accueil
+                              <i className="uil uil-estate nav_icon"></i>Accueil
                         </a>
                     </li>
 
