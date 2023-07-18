@@ -27,7 +27,7 @@ const Service = () => {
                         <h3 className="services_modal-title">UI/UX 
                         Designer</h3>
                         <p className="services_modal-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Je vais concevoir et développer vos interfaces utilisateurs
                         </p>
                         <ul className="services_modal-services grid">
                             <li className="services_modal-service">
@@ -73,22 +73,22 @@ const Service = () => {
                           <ul className="services_modal-services grid">
                               <li className="services_modal-service">
                                   <i className="uil uil-check-circle services_modal-icon"></i>
-                                  <p className="services_modal-info">Je développe les interfaces utilisateurs (UI)</p>
+                                  <p className="services_modal-info">Laravel Santum</p>
                               </li>
 
                               <li className="services_modal-service">
                                   <i className="uil uil-check-circle services_modal-icon"></i>
-                                  <p className="services_modal-info">Développement des pages web</p>
+                                  <p className="services_modal-info">Laravel Json Web Token(JWT)</p>
                               </li>
 
                               <li className="services_modal-service">
                                   <i className="uil uil-check-circle services_modal-icon"></i>
-                                  <p className="services_modal-info">Création des sites web & application web</p>
+                                  <p className="services_modal-info">Node js avec Json Web Token</p>
                               </li>
 
                               <li className="services_modal-service">
                                   <i className="uil uil-check-circle services_modal-icon"></i>
-                                  <p className="services_modal-info">Création des sites WordPress</p>
+                                  <p className="services_modal-info">Création des plugin WordPress</p>
                               </li>
                           </ul>
                       </div>
@@ -109,7 +109,7 @@ const Service = () => {
                           <h3 className="services_modal-title">Application 
                           Web</h3>
                           <p className="services_modal-description">
-                              Je vais créer vos applications web!
+                              Je vais créer vos sites et applications web!
                           </p>
                           <ul className="services_modal-services grid">
                               <li className="services_modal-service">
