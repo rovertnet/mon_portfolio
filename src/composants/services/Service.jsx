@@ -155,12 +155,12 @@ const Service = () => {
                           <ul className="services_modal-services grid">
                               <li className="services_modal-service">
                                   <i className="uil uil-check-circle services_modal-icon"></i>
-                                  <p className="services_modal-info">Je développe les interfaces utilisateurs (UI)</p>
+                                  <p className="services_modal-info">Référencement naturel</p>
                               </li>
 
                               <li className="services_modal-service">
                                   <i className="uil uil-check-circle services_modal-icon"></i>
-                                  <p className="services_modal-info">Développement des pages web</p>
+                                  <p className="services_modal-info">Audit avec vos mots clés</p>
                               </li>
 
                               <li className="services_modal-service">
