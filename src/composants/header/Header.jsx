@@ -37,7 +37,7 @@ export const Header = () => {
                               <i className="uil uil-user nav_icon"></i>A propos
                           </a>
                       </li>
-
+                      {/*  
                       <li className="nav_ithem">
                           <a 
                             href="#competences" 
@@ -47,7 +47,7 @@ export const Header = () => {
                               <i className="uil uil-file-alt nav_icon"></i>Compétences
                           </a>
                       </li>
-
+                      */}
                       <li className="nav_ithem">
                           <a  
                              href="#services" 
@@ -57,7 +57,7 @@ export const Header = () => {
                               <i className="uil uil-briefcase-alt nav_icon"></i>Services
                           </a>
                       </li>
-
+                      {/*  
                       <li className="nav_ithem">
                           <a 
                             href="#portfolio" 
@@ -66,8 +66,8 @@ export const Header = () => {
                            >
                               <i className="uil uil-scenery nav_icon"></i>Portfolio
                           </a>
-                      </li>
-
+                      </li> 
+                      */}
                       <li className="nav_ithem">
                           <a 
                             href="#contact" 
