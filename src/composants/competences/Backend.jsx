@@ -38,16 +38,7 @@ const Backend = () => {
                       <i className="bx bx-badge-check"></i>
 
                       <div>
-                          <h3 className="skills_name">TypeScript</h3>
-                          <span className="skills_level">Basic</span>
-                      </div>
-                  </div>
-
-                  <div className="skills_data">
-                      <i className="bx bx-badge-check"></i>
-
-                      <div>
-                          <h3 className="skills_name">Git</h3>
+                          <h3 className="skills_name">Git & GitHub</h3>
                           <span className="skills_level">Intermediaire</span>
                       </div>
                   </div>
