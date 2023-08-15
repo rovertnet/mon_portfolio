@@ -18,8 +18,8 @@ const Contact = () => {
   };
   return (
     <section className="contact section" id="contact">
-          <h2 className="section_title">Contactez moi</h2>
-          <span className="section_subtitle">introduction</span>
+          <h2 className="section_title">Contact</h2>
+          <span className="section_subtitle">contactez-moi</span>
 
           <div className="contact_container container grid">
             <div className="contact_content">
