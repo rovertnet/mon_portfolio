@@ -10,7 +10,7 @@ const Service = () => {
     
     <div className="services section" id="services">
           <h2 className="section_title">Services</h2>
-          <span className="section_subtitle">introduction</span>
+          <span className="section_subtitle">prestation services</span>
 
         <div className="services_container container grid">
             <div className="services_content">
