@@ -7,7 +7,7 @@ import Infos from './Infos';
 const About = () => {
   return (
     <div className="about section" id="about">
-        <h2 className="section_title">A propos de moi</h2>
+        <h2 className="section_title">A propos</h2>
         <span className="section_subtitle">mon introduction</span>
         <div className="about_container container grid">
             <img src={aboutImg} alt="" className="about_img" />
